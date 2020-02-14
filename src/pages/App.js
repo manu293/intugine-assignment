@@ -1,12 +1,14 @@
 // imports
-import React from 'react';
+import React from "react";
 
 // local imports
+import { Header } from "../components";
+import "./App.css";
 
 const App = () => (
-    <div>
-        This is the App js
-    </div>
-)
+  <div>
+    <Header />
+  </div>
+);
 
 export default App;
