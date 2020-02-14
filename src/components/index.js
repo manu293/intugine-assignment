@@ -1,4 +1,5 @@
 // imports
 
 // local imports
-export * from './Header/index'
+export * from './Header';
+export * from './DummyCards'

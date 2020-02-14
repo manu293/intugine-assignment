@@ -2,12 +2,13 @@
 import React from "react";
 
 // local imports
-import { Header } from "../components";
+import { Header, DummyCards } from "../components";
 import "./App.css";
 
 const App = () => (
   <div>
     <Header />
+    <DummyCards />
   </div>
 );
 
