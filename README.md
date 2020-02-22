@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Intugine Shipment Tracker!
 
-## Available Scripts
+Intugine Shipment Tracker is a fully features **landing page for tracking the shipment status**.
 
-In the project directory, you can run:
 
-### `npm start`
+## Navbar
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Navbar consists of the logo and three different sections that holds the information as following the Home section, the Brands section and the Transporter section along with a user icon.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Second Sub Section
 
-### `npm test`
+The second sub section consists of different cards that depicts different numbers for different delivery use cases.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Left Side Card View
 
-### `npm run build`
+On the left we have a Card that initially displays **select an AWB number ** when the user visits the page for the first time. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the user has selected an AWB number it displays the different phases the product has gone though from booked though delivery. It displays these information in a div where we have the scan status, the date and the time.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Right side Table View 
 
-### `npm run eject`
+On the right side, we have a table view which consists of list of data we get from making call to a back-end API. We get 100 list of data, which consists of different data like AWB Number, Transporter, Source, Destination, Brand, Start date, End Date and Delivery Status. On selecting any one of the data by checking the box , we pass the selected value to the Card View on the left side to display the progress of the delivery.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How to run this project?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. You can ** Clone / Download** this repository from Github.
+2. Once that is done unzip the file and open it in the command line.
+3. To install all the necessary packages just run, **npm install**
+4. Once that is done successfully, make sure to run **npm start** to run this project. **Keep in mind this project was bootstrapped using create-react-app.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**Happy Coding...**
